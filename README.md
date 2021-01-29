@@ -1,22 +1,29 @@
 DEXY
 ===============
 
-Make an ERC20 wallet and do some transactions on a dex
+Dex tool capable of making ETH accounts and doing transactions across multiple DEX's in order to trade via their API's and/or obtain future airdrops.
 
 Requirements
 ===============
-python3.9
 
+* python3.9
+* infra.io `project_id` and `project_secret`
+* requirements.txt
 
-Install
+Installation
 ===============
 
 ```bash
 
-python -m pip install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -r requirements.txt
+
 ```
 
 Run
 ===============
-python3 dexy.py
-
+```bash
+export ACCOUNT_RANDOMNESS='' INFURA_PROJECT_ID='' INFURA_PROJECT_ID=''
+python3 dexy.py -e {environment} -d {dex} -c {connection_type}
+```

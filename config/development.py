@@ -1,5 +1,7 @@
 config = {
-    'project_id': 'a108b422f8f149ca9394c6116790bd0e',
-    'project_secret': 'd563f3068bb745a19b0466cd4964f15c',
-    'url': 'https://ropsten.infura.io/v3/a108b422f8f149ca9394c6116790bd0e'
+    'project_id': '',
+    'project_secret': '',
+    'websocket_url': 'wss://rinkeby.infura.io/ws/v3/',
+    'https_url': 'https://rinkeby.infura.io/v3/',
+    'local_url': 'http://127.0.0.1:7545'
 }
